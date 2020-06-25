@@ -3,14 +3,14 @@
 <head>
 	<title>form html</title>
 </head>
-<body bgcolor = "lavender">
-<form action=/action_page.html>
+<body bgcolor = "lavender">	
+<form action="form.php" method="POST">
  	<label for= "fname">Nama :</label>
- 	<centre><input type="text" id="dname" name="dname"><br><br></centre>
+ 	<centre><input type="text"  name="nama"><br><br></centre>
  	<label for ="fname">Alamat :</label>
- 	<input type="text" id="alntname" name="alntname"><br><br>
+ 	<input type="text"  name="alamat"><br><br>
  	<label for= "fname">nomor handphone :</label>
- 	<input type="size" name="nomor_handphone" name="alntname"/><br><br>
+ 	<input type="size"  name="nomor_handphone"/><br><br>
  	<label for= "fname">Jenis kelamin :</label>
  	<input type="radio" name="jenis_kelamin" value="pria"/>pria
  	<input type="radio" name="jenis_kelamin" value="wanita"/>wanita<br><br>
@@ -23,7 +23,7 @@
  	<option value="konghucu">konghucu</option>
  	</select><br><br>
  	<label for= "fname">Prestasi:</label>
- 	<textarea> </textarea><br><br>
+ 	<textarea name="prestasi"> </textarea><br><br>
  	<nav>
  		<ul>
  		<li><p>Program Studi</p></a>
@@ -41,6 +41,5 @@
  	<input type="submit" value="simpan">
  	<input type="submit" value="batal">
  </form>
-
 </body>
 </html>
